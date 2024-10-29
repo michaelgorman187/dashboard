@@ -1,0 +1,27 @@
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 412px;
+    height: 784px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.newsitem {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    margin: auto;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    padding-bottom: 10px;
+}
